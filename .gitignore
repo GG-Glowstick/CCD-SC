@@ -11,3 +11,23 @@ Cargo.lock
 **/*.rs.bk
 
 .vscode/
+.stack-work/
+*~
+*.swp
+*.out
+*.dll
+*.exe
+*.a
+*.pdf
+*.csv
+
+.stack-work
+target
+*.json
+/.dir-locals.el
+*.bin
+pkg
+*.hie
+*.iml
+*.state-*
+*.state
