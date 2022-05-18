@@ -19,17 +19,8 @@ jobs:
         crates:
           - concordium-std/Cargo.toml
           - concordium-std-derive/Cargo.toml
-          - examples/auction/Cargo.toml
-          - examples/cis1-multi/Cargo.toml
-          - examples/cis1-nft/Cargo.toml
-          - examples/cis1-single-nft/Cargo.toml
-          - examples/cis1-wccd/Cargo.toml
-          - examples/erc721/Cargo.toml
-          - examples/listing-cis1/Cargo.toml
-          - examples/memo/Cargo.toml
-          - examples/piggy-bank/part1/Cargo.toml
-          - examples/piggy-bank/part2/Cargo.toml
-          - examples/two-step-transfer/Cargo.toml
+          - cis1-gg/Cargo.toml
+          - cis1-stable-coin/cargo.toml
 
     steps:
       - name: Checkout sources
@@ -211,17 +202,8 @@ jobs:
           - wasm32-unknown-unknown
 
         crates:
-          - examples/auction/Cargo.toml
-          - examples/cis1-multi/Cargo.toml
-          - examples/cis1-nft/Cargo.toml
-          - examples/cis1-single-nft/Cargo.toml
-          - examples/cis1-wccd/Cargo.toml
-          - examples/erc721/Cargo.toml
-          - examples/listing-cis1/Cargo.toml
-          - examples/memo/Cargo.toml
-          - examples/piggy-bank/part1/Cargo.toml
-          - examples/piggy-bank/part2/Cargo.toml
-          - examples/two-step-transfer/Cargo.toml
+          - cis1-gg/Cargo.toml
+          - cis1-stable-coin/cargo.toml
 
     steps:
       - name: Checkout sources
@@ -290,17 +272,8 @@ jobs:
           - x86_64-unknown-linux-gnu
 
         crates:
-          - examples/auction/Cargo.toml
-          - examples/cis1-multi/Cargo.toml
-          - examples/cis1-nft/Cargo.toml
-          - examples/cis1-single-nft/Cargo.toml
-          - examples/cis1-wccd/Cargo.toml
-          - examples/erc721/Cargo.toml
-          - examples/listing-cis1/Cargo.toml
-          - examples/memo/Cargo.toml
-          - examples/piggy-bank/part1/Cargo.toml
-          - examples/piggy-bank/part2/Cargo.toml
-          - examples/two-step-transfer/Cargo.toml
+          - cis1-gg/Cargo.toml
+          - cis1-stable-coin/cargo.toml
 
     steps:
       - name: Checkout sources

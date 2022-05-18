@@ -1,17 +1,19 @@
 [package]
-name = "cis1_wccd"
+name = "cis1-stable-coin"
 version = "0.1.0"
-authors = ["Concordium <developers@concordium.com>"]
+authors = ["GamersGold <kelvin@gamers.gold>"]
 edition = "2018"
-license = "MPL-2.0"
+license = "MIT"
+homepage = "https://github.com/GG-Glowstick/CCD-SC/"
+repository = "https://github.com/GG-Glowstick/CCD-SC/"
 
 [features]
 default = ["std"]
 std = ["concordium-std/std", "concordium-cis1/std"]
 
 [dependencies]
-concordium-std = {path = "../../concordium-std", default-features = false}
-concordium-cis1 = {path = "../../concordium-cis1", default-features = false}
+concordium-std = {path = "../concordium-std", default-features = false}
+concordium-cis1 = {path = "../concordium-cis1", default-features = false}
 
 [lib]
 crate-type=["cdylib", "rlib"]
