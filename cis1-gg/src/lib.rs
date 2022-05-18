@@ -1,4 +1,11 @@
 //! The contract coontains the source code for the proposed Gamers Gold Utility/ERC20 token on Concordium
+  
+//! A Gamers Gold token  implementation of the Concordium Token Standard CIS1.
+//!
+//! # Description
+//! An instance of this smart contract can contain a number of different token
+//! types each identified by a token ID. A token type is then globally
+//! identified by the contract address together with the token ID.
 
 #![cfg_attr(not(feature = "std"), no_std)]
 use concordium_cis1::*;
