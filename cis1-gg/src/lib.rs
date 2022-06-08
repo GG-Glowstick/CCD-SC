@@ -16,7 +16,7 @@ use concordium_std::{
 
 /// The baseurl for the token metadata, gets appended with the token ID as hex
 /// encoding before emitted in the TokenMetadata event.
-const TOKEN_METADATA_BASE_URL: &str = "https://gamers.gold/token/cis1-erc20";
+const TOKEN_METADATA_BASE_URL: &str = "https://gamers.gold/token/";
 
 // Types
 
@@ -798,7 +798,7 @@ mod tests {
                 from:     ADDRESS_0,
                 to:       ADDRESS_1,
                 token_id: TOKEN_0,
-                amount:   1000000000,
+                amount:   100,
             })),
             "Incorrect event emitted"
         )
